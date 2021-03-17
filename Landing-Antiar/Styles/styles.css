@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+.header{
+	width: 100%;
+	background-image: url(../Images/antiar.jpg);
+	background-size: cover;
+	padding-top: 300px;
+	padding-bottom: 100px;
+}
+
+.toolbar{
+	width: 100%;
+	min-height: 65px;
+	font-size: 10px;
+    background-color: #4e281f;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar-inner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+#btn-menu {
+    width: 40px;
+    height: 40px;
+}
+
+.menu{
+	width: 100%;
+    display: none;
+	flex-shrink: 0;
+}
+
+.menu ul{
+	margin-top: 20px;
+	list-style: none;
+}
+
+.menu li{
+    color: #fff;
+    margin: 0 10px;
+	padding: 15px;
+	border-bottom: 1px #666 solid;
+}
+
+@media(min-width: 768px) {
+	.toolbar {
+		flex-direction: row;
+	}
+	#btn-menu{
+		display: none;
+	}
+    .menu {
+		width: auto;
+        display: block;
+    }
+    .menu ul{
+        height: 100%;
+        display: flex;
+		margin-top: 0;
+        align-items: center;
+    }
+	.menu li {
+		border: none;
+	}
+	.header{
+		width: 100%;
+		padding-top: 300px;
+		padding-bottom: 100px;
+	}
+}
+
+.logo{
+	width: 30%;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 15px;
+	margin-top: 10px;
+	margin-right: 40%;
+	float: left;
+}
+
+.section h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	background-color: #4e281f;
+}
+.footer{
+	text-align: center;
+	padding: 50px 0;
+	width: 100%;
+	color: white;
+	background-color: #4e281f;
+}
