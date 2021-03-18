@@ -101,6 +101,15 @@
 	padding: 10px 10px;
 	background-color: #4e281f;
 }
+
+section p{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 20px;
+	margin-right: 20px;
+}
 .footer{
 	text-align: center;
 	padding: 50px 0;
