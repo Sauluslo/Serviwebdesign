@@ -97,6 +97,8 @@
 	text-align: center;
 	padding: 10px 10px;
 	background-color: #4e281f;
+	border-bottom: 5px #cc7f12 solid;
+
 }
 
 .text p{
