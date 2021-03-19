@@ -58,8 +58,11 @@
 	list-style: none;
 }
 
+.menu a{
+	color: #fff;
+	text-decoration: none;
+}
 .menu li{
-    color: #fff;
     margin: 0 10px;
 	padding: 15px;
 	border-bottom: 1px #666 solid;
@@ -136,10 +139,30 @@
 .social-bt{
 	margin: 10px;
 	padding: 10px 20px;
-	border: 1px #cc7f12 solid;
+	border: 1px #000000 solid;
 	background-color: aqua;
 	text-decoration: none;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	color: #fff;
+}
+
+.twitter{
+	background-color: #00a2f3;
+}
+
+.github{
+	background-color: white;
+}
+
+.linkedin{
+	background-color: #007bb6;
+}
+
+.reddit{
+	background-color: #fe4501;
 }
 
 .footer{
