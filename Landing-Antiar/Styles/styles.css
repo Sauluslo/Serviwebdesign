@@ -41,7 +41,7 @@
 	flex-shrink: 0;
 }
 
-.menu a{
+.btn-antiar{
     color: #fff;
     margin: 0 10px;
 	padding-top: 5px;
@@ -50,6 +50,7 @@
 	padding-bottom: 5px;
 	background-color: #cc7f12;
 	border-radius: 5px;
+	text-decoration: none;
 }
 
 .menu ul{
@@ -132,6 +133,14 @@
 	flex-direction: column;
 }
 
+.social-bt{
+	margin: 10px;
+	padding: 10px 20px;
+	border: 1px #cc7f12 solid;
+	background-color: aqua;
+	text-decoration: none;
+}
+
 .footer{
 	text-align: center;
 	padding: 50px 0;
@@ -165,7 +174,7 @@
 		border: none;
 	}
 
-	.menu a {
+	.btn-antiar{
 		border: none;
 	}
 	.header{
