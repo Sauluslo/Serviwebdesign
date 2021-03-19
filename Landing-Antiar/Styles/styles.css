@@ -80,7 +80,7 @@
 	float: left;
 }
 
-.section div{
+.description{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -95,8 +95,8 @@
 	background-color: #4e281f;
 }
 
-.section p{
-	padding: 20px;
+.text p{
+	padding-top: 20px;
 }
 
 .sec2{
@@ -126,6 +126,8 @@
 	padding-bottom: 20px;
 	padding-top: 10px;
 }
+
+
 
 .footer{
 	text-align: center;
@@ -169,14 +171,14 @@
 		padding-bottom: 100px;
 	}
 
-	.section div{
+	.description{
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 	}
 
-	.section div p{
+	.text{
 		max-width: 35%;
 	}
 
