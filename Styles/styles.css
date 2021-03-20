@@ -212,6 +212,7 @@
 
 	.btn-antiar{
 		margin: 0 10px;
+		border: none;
 	}
 
     .menu {
@@ -230,9 +231,6 @@
 		border: none;
 	}
 
-	.btn-antiar{
-		border: none;
-	}
 	.header{
 		width: 100%;
 		padding-top: 300px;
