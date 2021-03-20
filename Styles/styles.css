@@ -48,7 +48,6 @@
 
 .btn-antiar{
     color: #fff;
-    margin: 0 10px;
 	padding-top: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -212,7 +211,7 @@
 	}
 
 	.btn-antiar{
-		margin: none;
+		margin: 0 10px;
 	}
 
     .menu {
