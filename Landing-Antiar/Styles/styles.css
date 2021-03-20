@@ -92,13 +92,19 @@
 	margin: 0 auto;
 }
 
-.section h1{
+.toolbar-h{
 	color: #fff;
-	text-align: center;
+	justify-content: center;
 	padding: 10px 10px;
+	display: flex;
+	flex-direction: row;
 	background-color: #4e281f;
 	border-bottom: 5px #cc7f12 solid;
+}
 
+.toolbar-h img{
+	padding-top: 3px;
+	margin-right: 10px;
 }
 
 .text p{
