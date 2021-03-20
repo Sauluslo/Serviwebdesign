@@ -211,6 +211,10 @@
 		display: none;
 	}
 
+	.btn-antiar{
+		margin: none;
+	}
+
     .menu {
 		width: auto;
         display: block;
