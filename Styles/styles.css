@@ -4,6 +4,10 @@
 	font-family: Arial;
 }
 
+.body{
+	background-color: #f3f3f3;
+}
+
 .header{
 	width: 100%;
 	background-image: url(../Images/antiar.jpg);
@@ -152,11 +156,6 @@
 
 .logo-antiar{
 	width: 100%;
-}
-
-.sec2{
-	background-color: #f3f3f3;
-	justify-content: space-between;
 }
 
 .sec2 div{
