@@ -30,6 +30,11 @@
 	justify-content: space-between;
 }
 
+.btn-menu{
+	background-color: #4e281f;
+	border: none;
+}
+
 #btn-menu {
     width: 40px;
     height: 40px;
@@ -107,6 +112,21 @@
 	margin-right: 10px;
 }
 
+.toolbar-h2{
+	color: #fff;
+	justify-content: center;
+	padding: 10px 10px;
+	display: flex;
+	flex-direction: row;
+	background-color: #4e281f;
+	border-bottom: 5px #cc7f12 solid;
+}
+
+.toolbar-h2 img{
+	padding-top: 3px;
+	margin-right: 10px;
+}
+
 .text p{
 	padding-top: 20px;
 }
@@ -114,14 +134,6 @@
 .sec2{
 	background-color: #f3f3f3;
 	justify-content: space-between;
-}
-
-.title2{
-	color: #fff;
-	text-align: center;
-	padding: 10px 10px;
-	background-color: #4e281f;
-    border-bottom: 5px #cc7f12 solid;
 }
 
 .sec2 div{
