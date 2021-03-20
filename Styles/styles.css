@@ -15,7 +15,8 @@
 .toolbar{
 	width: 100%;
 	min-height: 65px;
-	font-size: 10px;
+	font-size: 15px;
+	font-weight: bold;
     background-color: #4e281f;
     display: flex;
 	flex-direction: column;
@@ -30,14 +31,17 @@
 	justify-content: space-between;
 }
 
-.btn-menu{
+#btn-menu {
+    width: 40px;
+    height: 40px;
+	margin-right: 15px;
 	background-color: #4e281f;
 	border: none;
 }
 
-#btn-menu {
-    width: 40px;
-    height: 40px;
+.btn-antiar-menu{
+	display: flex;
+	align-items: center;
 }
 
 .menu{
@@ -57,23 +61,30 @@
 	text-decoration: none;
 }
 
+.btn-antiar-mob{
+	display: block;
+	margin-right: 30px;
+}
+
+.btn-antiar-desk{
+	display: none;
+}
+
 .menu ul{
 	margin-top: 20px;
 	list-style: none;
 }
 
 .btn-links{
-	padding: 20px;
-	color: #fff;
-	text-decoration: none;
-}
-.menu li{
-    margin: 0 10px;
 	padding: 15px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	margin: 0 10px;
 	border-bottom: 1px #666 solid;
 }
 
-.menu li:hover{
+.btn-links:hover{
 	background-color: #cc7f12;
 }
 
@@ -218,9 +229,21 @@
 		display: none;
 	}
 
+	.btn-links{
+		border: none;
+	}
+
 	.btn-antiar{
 		margin: 0 10px;
 		border: none;
+	}
+
+	.btn-antiar-mob{
+		display: none;
+	}
+
+	.btn-antiar-desk{
+		display: block;
 	}
 
     .menu {
@@ -272,5 +295,9 @@
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
+	}
+
+	.antiar-img{
+		width: 50%;
 	}
 }
